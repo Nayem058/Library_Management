@@ -1,0 +1,484 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}
+
+body {
+	line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+	display:block;
+}
+
+nav ul {
+	list-style:none;
+}
+
+blockquote, q {
+	quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content:'';
+	content:none;
+}
+
+a {
+	margin:0;
+	padding:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+	background-color:#ff9;
+	color:#000;
+	text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+	background-color:#ff9;
+	color:#000; 
+	font-style:italic;
+	font-weight:bold;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+	border-bottom:1px dotted;
+	cursor:help;
+}
+
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+	display:block;
+	height:1px;
+	border:0; 
+	border-top:1px solid #cccccc;
+	margin:1em 0;
+	padding:0;
+}
+
+input, select {
+	vertical-align:middle;
+}
+
+/*-------------------------------Main code   INDEX ---------------------------------------------------------*/
+
+.wrapper
+{
+	/*height: 660px;*/
+	width: 1350px;
+	
+}
+#mini p {
+	padding-top: 10px;
+}
+
+header
+{
+	height: 100px;
+	width: 1350px;
+	background-color: white;
+	/*padding: 10px;*/
+}
+/*section
+{
+	height: 550px;
+	width: 1361px;
+	background-color: grey;
+	}*/
+	
+	.logo
+	{
+		float :left;
+		padding-left: 20px;
+
+	}
+	.logo img 
+	{
+		/*margin-top: 20px;*/
+		padding-left: 80px;
+		height: 50px;
+	}
+	#jh
+	{
+		color: black; padding-left: 30px; font-size: 25px;
+	}
+
+/*li a
+{
+	color: black;
+	text-decoration: none;
+	}*/
+/*nav
+{
+	float: right;
+	word-spacing: 30px;
+	padding: 20px;
+}
+nav li 
+{
+	display: inline-block;
+	line-height: 80px;
+	}*/
+
+/*section .sec_img
+{
+	height: 550px;
+	margin-top: 0px;
+	background-image: url("images/1.jpg");
+	}*/
+	.box
+	{
+		height: 250px;
+		width: 450px;
+		background-color: #030002;
+		margin: 70px auto;
+		opacity: .6;
+		color: white;
+	}
+/*.carousel-control-next{
+	margin-top: 250px;
+}
+.carousel-control-prev{
+	margin-top: 250px;
+	}*/
+	.dropdown-menu a:hover{
+		background-color: gray;
+	}
+	#inner img{
+		width: 1400px;
+		height: 500px;
+		object-fit: cover;
+	}
+	/***********card section*************/
+/*.container {
+  position: relative;
+  
+  }*/
+  #line{
+  	border-bottom: 5px solid green;
+  	width: 200px;
+  }
+
+  .overlay1 {
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 100%;
+  	width: 100%;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: #E9766B;
+  }
+
+  a .overlay1:hover {
+  	opacity: .8;
+  }
+
+  .text1 {
+  	color: white;
+  	font-size: 20px;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	-webkit-transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+  	text-align: center;
+  }
+  /****************card 2**************/
+  .overlay2 {
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 100%;
+  	width: 100%;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: #E9766B;
+  }
+
+  a .overlay2:hover {
+  	opacity: .8;
+  }
+
+  .text2 {
+  	color: white;
+  	font-size: 20px;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	-webkit-transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+  	text-align: center;
+  }
+  /********card 3***********/
+  .overlay3 {
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 100%;
+  	width: 100%;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: #E9766B;
+  }
+
+  a .overlay3:hover {
+  	opacity: .8;
+  }
+
+  .text3 {
+  	color: white;
+  	font-size: 20px;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	-webkit-transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+  	text-align: center;
+  }
+  /****************card 4*******************/
+  .overlay4 {
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 100%;
+  	width: 100%;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: #E9766B;
+  }
+
+  a .overlay4:hover {
+  	opacity: .8;
+  }
+
+  .text4 {
+  	color: white;
+  	font-size: 20px;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	-webkit-transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+  	text-align: center;
+  }
+  /****************end card*************************/
+
+
+  /*----------------img hover section-------------------*/
+  .card .lastcard1{
+  	height: 350px;
+  	background-color: #E2A599;
+  	color: white;
+  	/*padding: 70px 30px;*/
+  	transition: transform .2s ease;
+  }
+  .card .lastcard1 a img{
+  	height: 355px;
+  	width: 255px;
+  }
+	/*.card .lastcard1 i{
+		font-size: 30px;
+		}*/
+		.card .lastcard1:hover{
+			-ms-transform: scale(1.1); 
+			-webkit-transform: scale(1.1);
+			transform: scale(1.1); 
+		}
+
+		/*-------btn------*/
+		#hovercard1 .btn1{
+			border-radius: 30px;
+			/*padding: 10px 40px 10px 40px;*/
+			margin-left: 20px;
+		}
+		#hovercard1 .btn2{
+			border-radius: 30px;
+			/*padding: 10px 40px 10px 40px;*/
+		}
+		/*-------btn------*/
+		.card .lastcard2{
+			height: 350px;
+			background-color: #715F69;
+			color: white;
+			/*padding: 70px 30px;*/
+			transition: transform .2s ease;
+		}
+		.card .lastcard2 a img{
+			height: 355px;
+			width: 255px;
+		}
+		#hovercard2 .btn1{
+			border-radius: 30px;
+			/*padding: 10px 40px 10px 40px;*/
+			margin-left: 20px;
+		}
+		#hovercard2 .btn2{
+			border-radius: 30px;
+			/*padding: 10px 40px 10px 40px;*/
+		}
+		.card .lastcard2:hover{
+			-ms-transform: scale(1.1);
+			-webkit-transform: scale(1.1);
+			transform: scale(1.1); 
+		}
+
+		.card .lastcard3{
+			height: 350px;
+			background-color: #E45447;
+			color: white;
+			/*padding: 70px 30px;*/
+			transition: transform .2s ease;
+		}
+		
+		.card .lastcard3 a img{
+			height: 355px;
+			width: 255px;
+		}
+		#hovercard3 .btn1{
+			border-radius: 30px;
+			/*padding: 10px 40px 10px 40px;*/
+			margin-left: 20px;
+		}
+		#hovercard3 .btn2{
+			border-radius: 30px;
+			/*padding: 10px 40px 10px 40px;*/
+		}
+		.card .lastcard3:hover{
+			-ms-transform: scale(1.1); 
+			-webkit-transform: scale(1.1); 
+			transform: scale(1.1); 
+		}
+
+
+		.card .lastcard4{
+			height: 350px;
+			background-color: #90ACD1;
+			color: white;
+			/*padding: 70px 30px;*/
+			transition: transform .2s ease;
+		}
+		
+		.card .lastcard4 a img{
+			height: 355px;
+			width: 255px;
+		}
+		#hovercard4 .btn1{
+			border-radius: 30px;
+			/*padding: 10px 40px 10px 40px;*/
+			margin-left: 20px;
+		}
+		#hovercard4 .btn2{
+			border-radius: 30px;
+			/*padding: 10px 40px 10px 40px;*/
+		}
+		.card .lastcard4:hover{
+			-ms-transform: scale(1.1); 
+			-webkit-transform: scale(1.1); 
+			transform: scale(1.1); 
+		}
+
+
+		/*----------------end img hover section-------------------*/
+
+
+		/*--------------------------------st_login-----------------------------*/
+
+		.log_img
+		{
+			background-image: url("images/bg.jpg");
+			background-repeat: no-repeat;
+			height: 650px;
+			background-size: 1355px 650px;
+		}
+		.box1
+		{
+			height: 450px;
+			width: 450px;
+			background-color: black;
+			margin: 70px auto;
+			opacity: .7;
+			color: white;
+			padding: 20px;
+		}
+		form .login
+		{
+			margin: auto 50px;
+		}
+		input
+		{
+			height: 25px;
+			width: 300px;
+
+		}
+		/*------------------------------registration--------------------*/
+		.reg_img
+		{
+			background-image: url("images/lb1.jpg");
+			background-repeat: no-repeat;
+			height: 650px;
+			background-size: 1355px 650px;
+		}
+		.box2
+		{
+			height: 589px;
+			width: 450px;
+			background-color: black;
+			margin: 0px auto;
+			opacity: .7;
+			color: white;
+			padding: 20px;
+		}
